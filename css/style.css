@@ -1,0 +1,654 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url("../images/hero.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header .logo img {
+    width: 250px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    color: #513c2a;
+    font-size: 25px;
+}
+
+header {
+    background-image: url("../images/hero.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+header .logo {}
+
+header .logo img {
+    width: 250px;
+}
+
+header h5 img {}
+
+header h5 {
+    font-size: 15px;
+    font-weight: 700;
+    /* font-family: montserrat; */
+    font-family: 'Montserrat', sans-serif;
+}
+.van{
+
+margin-right: 25px;
+}
+.van p{
+
+font-weight: 700;
+
+font-size: 16px;
+
+font-family: 'Montserrat', sans-serif;
+}
+.van p img{
+
+margin-right: 10px;
+}
+    .navbar {
+       
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #513c2a;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .height{
+align-items: center;
+    }
+    .height h6{
+
+border: dashed;
+
+display: inline-block;
+
+padding: 10px 30px;
+
+text-transform: uppercase;
+
+color: #513c2a;
+
+font-weight: 600;
+
+margin-bottom: 10px;
+
+font-size: 16px;
+
+font-family: 'Bebas Neue', cursive;
+}
+    .height h1{
+
+font-weight: 900;
+
+color: #513c2a;
+
+font-size: 100px;
+
+text-shadow: 3px 6px 12px white;
+
+font-family: 'Alfa Slab One', cursive;
+}
+    .height h4{
+
+text-shadow: 3px 6px 12px white;
+
+font-size: 50px;
+
+font-weight: 900;
+
+font-family: 'Alfa Slab One', cursive;
+}
+    .image{
+
+    }
+    .image img{
+        
+    }
+
+.dash-border {
+    border: dashed;
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    /* font-family: bebasneue regular; */
+}
+
+.dollar {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 1px solid red;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    position: absolute;
+    bottom: 18%;
+    right: 33%;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.dollar:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.dash-dollar {
+    width: 115px;
+    height: 115px;
+    border-radius: 57px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: dashed;
+    text-align: center;
+    padding: 31px 0px;
+    letter-spacing: 1px;
+}
+
+.dash-dollar h1 {
+    /* padding: 0 15px; */
+    color: white;
+    font-size: 27px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.dash-dollar span {
+    font-size: 16px;
+}
+
+
+.try-burger {}
+
+.burger-1 {
+    position: relative;
+    transition: all 0.4s ease-in-out 0s;
+    box-shadow: black 0px 0px 10px;
+    border-radius: 7px;
+}
+
+.burger-1:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.burger-1 img {}
+
+.content-one {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transform: translate(10px, 10px);
+    color: white;
+}
+
+.content-one p {
+    font-size: 20px;
+    font-weight: 600;
+    /* font-family: bebasneue; */
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.content-one h3 {
+    color: white;
+    font-family: bebasneueBold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.burger-2 {
+    position: relative;
+    margin-bottom: 47px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.burger-2:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.content-two {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transform: translate(10px, 10px);
+    color: white;
+}
+
+.content-two p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.content-two h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.burger-3 {
+    position: relative;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.burger-3:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.content-three {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transform: translate(10px, 10px);
+    color: white;
+}
+
+.content-three p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.content-three h3 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.tasty-burger {
+    text-align: center;
+}
+
+.tasty-content {}
+
+.tasty-content h4 {
+    display: inline-block;
+    border: 1px solid rgb(255, 192, 69);
+    background-color: rgb(255, 192, 69);
+    padding: 10px;
+    font-weight: 700;
+    color: rgb(61, 37, 20);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.tasty-content h1 {
+    font-weight: 800;
+    color: rgb(61, 37, 20);
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.tasty-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.choose-burger {}
+
+.choose-burger img {
+    transition: all 0.4s ease-in-out 0s;
+    /* width: 34px; */
+}
+
+.choose-burger img:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.choose-burger h2 {
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.choose-burger p {
+    color: rgb(61, 37, 20);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+
+.choose-burger a {
+    border: 1px solid rgb(191, 34, 34);
+    background: rgb(191, 34, 34);
+    color: white;
+    /* font-weight: 400; */
+    margin-top: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    padding: 10px 20px;
+}
+
+.big-pic {
+    width: 96%;
+}
+
+
+.shadow{
+    
+    padding: 15px;
+}
+.shadow h1{
+
+font-weight: 900;
+
+padding-bottom: 14px;
+
+color: #3d2514;
+
+font-family: 'Alfa Slab One', cursive;
+}
+.shadow h6{
+
+font-size: 20px;
+
+color: #3d2514;
+
+font-family: 'Bebas Neue', cursive;
+}
+.shadow p{
+    
+font-weight: 600;
+    
+font-size: 16px;
+    
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.book-table {
+
+    position: relative;
+}
+
+.book-table h6 {
+
+color: #3d2514;
+
+font-size: 20px;
+
+font-weight: 700;
+
+font-family: 'Bebas Neue', cursive;
+}
+
+.book-table h1 {
+
+font-weight: 900;
+
+color: #3d2514;
+
+font-family: 'Alfa Slab One', cursive;
+}
+
+.contact-form {}
+
+.contact-form form {
+
+margin: 0% 20%;
+}
+
+.contact-form form input {}
+
+.button {
+
+    background: #bf2222;
+
+    color: white;
+
+    font-weight: 700;
+
+    font-size: 18px;
+}
+
+.table-item-one {
+
+position: absolute;
+
+left: 0%;
+
+top: -28%;
+
+transition: .4s all ease-in-out;
+}
+
+.table-item-one:hover {
+    transform: scale(1.1);
+}
+
+.table-item-bottle {
+
+left: 8%;
+
+top: 22%;
+
+position: absolute;
+
+transition: .4s all ease-in-out;
+}
+
+.table-item-bottle:hover {
+    transform: scale(1.1);
+}
+
+.table-item-two {
+
+position: absolute;
+
+right: 0%;
+
+top: 62%;
+
+transition: .4s all ease-in-out;
+}
+
+.table-item-two:hover {
+    transform: scale(1.1);
+}
+
+.burger-house {
+    padding-top: 75px;
+}
+
+.background {
+    background-image: url(../images/footer-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+
+}
+
+.house {
+
+    padding-left: 25px;
+}
+
+.house img {
+
+    width: 45%;
+}
+
+.background p {
+
+color: white;
+
+padding-left: 25px;
+
+padding-top: 25px;
+
+font-size: 16px;
+
+font-family: 'Montserrat', sans-serif;
+}
+
+.background h6 {
+
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.background h6 i {
+
+    font-size: 30px;
+
+    margin-right: 30px;
+}
+
+.icon {}
+
+.icon h6 {
+    font-weight: 300;
+    /* font-size: larger; */
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 16px;
+}
+
+.icon h6 i {
+    font-size: 30px;
+}
+
+.icon-two {}
+
+.icon-two h6 {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.icon-tw0 h6 i {}
+
+.address {
+
+    padding-top: 85px;
+
+    padding-left: 170px;
+}
+
+.link-share {
+    padding-right: 25px;
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    /* justify-content: space-around; */
+    text-align: center;
+    /* align-items: center; */
+    line-height: 50px;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .4s all ease ease-in-out;
+}
+
+.instagram:hover {
+    transform: scale(1.1);
+}
+
+.instagram i {
+    color:
+        black;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.owl-nav{
+    display: none;
+}
+
+.owl-dots .owl-dot span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color:#dcdcdc;
+    border-radius: 5px;
+
+}
+.owl-dots .owl-dot{
+    margin: 4px;
+}
+.owl-dots .active span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color:#ffc045;
+    border-radius: 6px;
+
+}
+.owl-dots{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.shadow{
+    padding: 40px;
+}
+.custom-image{
+    width: 360px;
+}
+.address {
+    padding-top: 32px;
+    padding-left: 32px;
+}

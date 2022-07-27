@@ -1,0 +1,434 @@
+
+/*Medium device css.....*/
+
+@media(max-width:767px){
+ 
+    .nav-item{
+        color: white;
+        border:1px solid black;
+        background-color: #3d2514;
+        
+    }
+    .height {
+        align-items: center;
+        text-align: center;
+    }
+    .height h6 {
+       
+        padding: 7px 12px;
+
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    .height h1 {
+        font-weight: 900;
+        color: #513c2a;
+        font-size: 60px;
+    
+    }
+    .height h4 {
+     
+        font-size: 35px;
+        
+    }
+    .van {
+        margin: auto;
+        text-align: center !important;
+    }
+    .van p{
+        font-size: 12px;
+    
+    }
+    .media-height {
+        padding: 0 !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-size: 16px;
+       
+        text-align: center;
+    }
+    .choose-burger {
+        padding: 0 !important;
+}
+.dollar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid red;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    position: absolute;
+    bottom: 11%;
+    right: 49%;
+    transition: all 0.4s ease-in-out 0s;
+}
+.dash-dollar {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: dashed;
+    text-align: center;
+    padding: 18px 0px;
+    letter-spacing: 1px;
+}
+.dash-dollar h1 {
+    /* padding: 0 15px; */
+    color: white;
+    font-size: 21px;
+}
+.content-one p {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.content-one h3 {
+
+    color: white;
+    font-weight: 500;
+}
+.burger-1{
+    margin-bottom: 20px;
+}
+.burger-2 {
+  
+    margin-bottom: 20px;
+   
+}
+.content-three h3 {
+
+    font-size: 20px;
+}
+.content-three p {
+    font-size: 16px;
+    
+}
+.content-two h3 {
+
+    font-size: 20px;
+    /* padding-bottom: 23px; */
+}
+.content-two p {
+    font-size: 16px;
+    font-weight: 600;
+   
+    color: white;
+}
+.content-one {
+  
+    left: 20px;
+    top: 0px;
+    
+}
+.content-two {
+   
+    top: 8px;
+    
+}
+.custom-image {
+  
+    margin-top: 15px;
+    width: 360px;
+    margin: auto;
+}
+
+.choose-burger img {
+   
+    margin-top: 15px;
+}
+.table-item-one {
+  
+    top: -19%;
+    
+}
+.owl-dots {
+    
+    bottom: 2%;
+}
+.table-item-bottle {
+   
+    z-index: -1;
+}
+.table-item-two {
+   
+    top: 69%;
+   
+    z-index: -1;
+}
+.choose-burger p {
+      
+    font-size: 16px;
+}
+.choose-burger a {
+  
+    padding: 5px 10px;
+}
+.burger-house {
+   padding-top: 70px;
+}
+.link-share {
+    padding-right: 145px;
+    padding-top: 10px;
+}
+.house img {
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+}
+
+/*mobile device css......*/
+
+@media(max-width:575px){
+    .nav-item{
+        color: white;
+        border:1px solid black;
+        background-color: #3d2514;
+        
+    }
+    .height {
+        align-items: center;
+        text-align: center;
+    }
+    .height h6 {
+       
+        padding: 7px 12px;
+
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    .height h1 {
+        font-weight: 900;
+        color: #513c2a;
+        font-size: 60px;
+    
+    }
+    .height h4 {
+     
+        font-size: 35px;
+        
+    }
+    .van {
+        margin: auto;
+    }
+    .van p{
+        font-size: 12px;
+    
+    }
+    .media-height {
+        padding: 0 !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-size: 16px;
+       
+        text-align: center;
+    }
+    .choose-burger {
+        padding: 0 !important;
+    }
+    .dollar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        border: 1px solid red;
+        color: rgb(255, 255, 255);
+        background-color: red;
+        position: absolute;
+        bottom: 5%;
+        right: 49%;
+        transition: all 0.4s ease-in-out 0s;
+    }
+    .dash-dollar {
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: dashed;
+        text-align: center;
+        padding: 18px 0px;
+        letter-spacing: 1px;
+    }
+    .dash-dollar h1 {
+        /* padding: 0 15px; */
+        color: white;
+        font-size: 21px;
+    }
+    .content-one p {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+    .content-one h3 {
+    
+        color: white;
+        font-weight: 500;
+    }
+    .burger-1{
+        margin-bottom: 20px;
+    }
+    .burger-2 {
+      
+        margin-bottom: 20px;
+       
+    }
+    .content-three h3 {
+    
+        font-size: 20px;
+    }
+    .content-three p {
+        font-size: 16px;
+        
+    }
+    .content-two h3 {
+    
+        font-size: 20px;
+        /* padding-bottom: 23px; */
+    }
+    .content-two p {
+        font-size: 16px;
+        font-weight: 600;
+       
+        color: white;
+    }
+    .content-one {
+      
+        left: 20px;
+        top: 0px;
+        
+    }
+    .content-two {
+       
+        top: 8px;
+        
+    }
+    .custom-image {
+      
+        margin-top: 15px;
+    }
+    .choose-burger img {
+       
+        margin-top: 15px;
+    }
+    .shadow h6 {
+        font-size: 18px;
+        color: #3d2514;
+    }
+    .shadow p {
+        
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .owl-carousel .owl-item img {
+    
+        margin-bottom: 20px;
+    }
+    .table-item-bottle {
+        left: -14%;
+        top: 22%;
+        z-index: -1;
+    }
+    .table-item-one {
+        
+        left: 0%;
+        top: -14%;
+        
+        z-index: -1;
+    }
+    .table-item-two {
+       
+      
+        z-index: -1;
+        width: 155px;
+    }
+    .house img {
+        width: 55%;
+    }
+    .icon h6 {
+       
+        font-size: 12px;
+    }
+    .icon h6 i {
+        font-size: 22px;
+    }
+    .icon-two h6 {
+   
+        font-size: 12px;
+       
+    }
+    .address {
+        padding-top: 32px;
+       
+       
+    }
+    .background h6 i {
+        font-size: 22px;
+        margin-right: 19px;
+    }
+    .background p {
+        color: white;
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .instagram {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+       
+    }
+    .instagram i {
+        
+        font-size: 25px;
+    }
+    .social{
+        text-align: center;
+    }
+    .choose-burger p {
+      
+        font-size: 16px;
+    }
+    .choose-burger a {
+      
+        padding: 5px 10px;
+    }
+    .burger-house {
+       padding-top: 0px;
+    }
+    .link-share {
+        padding-right: 50px;
+    }
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
